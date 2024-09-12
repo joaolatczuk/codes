@@ -4,6 +4,7 @@ int fibonacci(int n);
 
 int main() {
     int digitado;
+    printf("Digite o numero que voce quer verificar: ");
     scanf("%d", &digitado);
     if(fibonacci(digitado)==1){
         printf("Numero digitado pertence a fibonacci");
